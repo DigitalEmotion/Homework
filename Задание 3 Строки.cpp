@@ -9,7 +9,7 @@ int main()
 int k;
 vector<std::string> A;
 string a, b;
-cout << "¬ведите текст сообщени€:" << endl;
+cout << "enter message text:" << endl;
 getline(cin, a);
 a = a + ' ';
 for (int i = 0; i < a.length(); i++)
@@ -21,7 +21,7 @@ A.push_back(b);
 b = "";
 }
 }
-cout << "”никальные слова:" << endl;
+cout << "unique words:" << endl;
 for (int i = 0; i < A.size(); i++)
 {
 k = 0;
@@ -34,6 +34,5 @@ if (k == 1)
 cout << A[i] << endl;
 }
 }
-system("pause");
 return 0;
 }
